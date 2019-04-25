@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='../css/main.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+  body
+    main
+      block header
+        header.main
+          h2 #{message}
+      block content

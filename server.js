@@ -11,6 +11,9 @@ var beerRouter = require('./routes/beer');
 app.use(express.static(path.join(__dirname, 'public')));
 
 //something
+app.set('views', './public/views')
+app.set('view engine', 'pug')
+
 app.use('/', indexRouter);
 app.use('/beer.html', beerRouter);
 
