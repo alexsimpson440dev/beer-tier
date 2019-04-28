@@ -1,0 +1,19 @@
+{
+    "beer": [
+        {
+            "id": "01",
+            "type": "ipa",
+            "flavor": "bitter"
+        },
+        {
+            "id": "02",
+            "type": "stout",
+            "flavor": "dark/bold"
+        },
+        {
+            "id": "03",
+            "type": "sour",
+            "flavor": "sweet/sour"
+        }
+    ]
+}
