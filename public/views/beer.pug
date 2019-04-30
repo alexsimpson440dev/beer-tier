@@ -8,6 +8,12 @@ html
     main
       block header
         header.main
-          h2 #{message}
-          a(href="/beer/ipa") IPA
+          a(href='/') Home
+
       block content
+        h2 #{message}
+        // iterates through the data variable and dynamically creates links
+        ul
+          each beer in data
+            li
+              a(href=`/beer/${beer['type']}`) #{beer['type']}
